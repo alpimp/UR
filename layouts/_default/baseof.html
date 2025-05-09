@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    {{if (eq .Type "thanks") }}
+    {{- partial "thanks" . }}
+    {{ else }}
+  {{- partial "head.html" . -}}
+
+  {{ .Scratch.Set "scripts" (slice "")  }}
+
+  <!--    {{ partial "custom/woopra.html" . }} -->
+  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
+  {{ with .Params.css }}
+   {{ with resources.Get . | resources.Minify | resources.Fingerprint }} <style>{{ .Content | safeCSS  }}</style> {{ end  }}
+  {{ end }}
+
+  <!--{{ $lg := printf "\"%s\"" (.Site.Language.Lang | upper | default "") }} -->
+  {{ $lg := .Site.Language.Lang | upper | default "" }}
+  {{ if ( eq $lg "UZL" ) }}
+  {{ $lg = "UZ" }}
+  {{ end }}
+  {{ .Scratch.Set "lg" $lg }}
+    {{- partial "navbar.html" . -}}
+
+<!-- Container element -->
+    {{- block "main" . }}{{ end -}}
+     <div class="parallax"></div>
+    {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+  {{  range (.Scratch.Get "scripts") }}
+  {{ . | safeHTML }}
+  {{ end }}
+    {{ partial "scripts.html" . }}
+  {{ with .Params.footer }}
+  {{ $footer :=  . }}
+  {{ $footername := printf "%s" $footer }}
+     {{ partial $footername (dict "curlang" $lg "lg" $lg "load" (T "loading") "invalidNumber" (T "invalidNumber") "invalidName" (T "invalidName") "context" .)  }}
+     {{ end  }}
+    <!--  {{ partial "custom/cloudflare.html" . }} -->
+
+  </body>
+    {{ end }}
+</html>
