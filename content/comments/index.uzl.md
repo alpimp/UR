@@ -27,7 +27,6 @@ avatar_photo="/jpg/m3.jpg"
     nickname="Nodirova Guzal" 
     dt="-3"
     message="   Va menda va erimda, aksincha, jinsiy hayot har doim muntazam ravishda, haftasiga uch marta yoki undan ko'p o'tkazardik. Ammo men qandaydir yo'l bilan u tasodifan erining Viagra yutayotganini ko'rdim! Siz tasavvur qila olasizmi? U menga muammolari haqida hech narsa aytmadi, lekin men uni yaxshi deb o'yladim va uning yoshini hisobga olmadim ... Umuman olganda, u uni juda qattiq tanqid qildi, ayniqsa Viagradan boshi og'riy boshlaganida va bosim ko'tarildi! Nega to'shagida xursandchilik bunday narxda ??? Biz u bilan tabiiy davolanish usullarini ko'rishni boshladik va Umid Rahmonovga aytgani uchun rahmat Urionga qoqildik! saytda harakat bor edi, shuning uchun biz ikki baravar omadli edik! Erim potentsialni to'liq tikladi, hatto menga yoshligida u bunday tosh erektsiya qilmagan ko'rinadi. Yarim yil o'tdi va pah-pah-pa hozircha hech qanday muammo yo'q edi!  😎😎😎" 
-    embed_image="/jpg/otz-1.jpg"
     image_height="400px" 
 >}}
 
@@ -186,7 +185,6 @@ avatar_photo="/jpg/m13.jpg"
     nickname="Хуршед" 
     dt="-8"
     message="Мен тажриба ўтказишга қарор қилдим) Мен ҳар куни жинсий олатимни ўлчай бошладим. 30 кун ва 17 см белгига эришилди! Менинг аёлим бироз ҳайратда)) " 
-    embed_image="/jpg/otz-2.jpg"
     image_height="300px" 
 >}}
 
