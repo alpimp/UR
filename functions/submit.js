@@ -230,9 +230,9 @@ async function fetchThankYouPage() {
     let response;
     const refr = request.headers.get('referer') || '';
     if (refr.includes("uzl")) {
-  const response = await fetch('https://uz-6.pages.dev/uzl/thanks/');
+  const response = await fetch('https://ur-eng.pages.dev/uzl/thanks/');
     } else {
-  const response = await fetch('https://uz-6.pages.dev/uz/thanks/');
+  const response = await fetch('https://ur-eng.pages.dev/uz/thanks/');
 
     }
   if (!response.ok) {
