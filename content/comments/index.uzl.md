@@ -14,7 +14,7 @@ footer: custom/footer-end.html
 {{< custom_giscus_comment 
 avatar_photo="/jpg/w7.jpg" 
     nickname="Lola Qirg'izboeva" 
-    dt="-9"
+    dt="-1"
     message="   Menda mastopatiya bor edi va davolanishdan tashqari, shifokor muntazam jinsiy hayotni tavsiya qildi, ammo buni aytish oson. Men xohlamasligim emas, lekin erimning kuchi allaqachon muvaffaqiyatsizlikka uchragan. Bizda oyiga ko'pi bilan 1-2 marta jinsiy hayot bo'lgan. Men u bilan gaplashdim, biz tez-tez urinib ko'rishga qaror qildik, lekin bir necha muvaffaqiyatsizliklardan so'ng u butunlay oqsaydi. Bir do'stim Urion-ga maslahat bergani yaxshi, men ushbu saytda erimga darhol murojaat qilishni buyurdim. Kechalari, biz endi nafaqat uxlaymiz, balki ertasi kuni uchganingizda, men allaqachon bu tuyg'uni unutganman! Umuman olganda, men buni barchaga tavsiya qilaman va kimyo bilan shug'ullanmang, bu hech qayerga yo'l !!" 
     image_height="400px" 
 >}}
